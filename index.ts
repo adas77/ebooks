@@ -5,7 +5,7 @@ import axios from "axios";
 // 2. istnieje wiele książek dla tej samej nazwy i autora - przy sprawdzeniu wszystkie ceny były takie same, więc nie opłaca się szukać minimum
 // 2.1. założenie - dodanie parametru &limit=1
 // 3. aby ograniczyć zapytania do api NBP można najpierw pobrać dane z api appla i wybrać unikalne daty - bez powtórzeń
-// 3.1 jeśli w punkcie 1.1. zwracana byłyby różne waluty - należy pogrubować jednocześnie po dacie i walucie - można użyć hasha
+// 3.1 jeśli w punkcie 1.1. zwracane byłyby różne waluty - należy pogrupować jednocześnie po dacie i walucie - można użyć hasha
 // 3.2. maksymalny przedział czasu do pobrania z api NBP to 1 rok, można:
 // 3.2.a. podzielić daty na mnijszą ilość przedziałów
 // 3.2.b. iterować po każdej dacie
